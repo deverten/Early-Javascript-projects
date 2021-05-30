@@ -1,4 +1,4 @@
-
+function throwDice(){
 
 var randomNumber1 = 1+Math.floor(6*Math.random());
 var diceImage = "dice"+ randomNumber1 + ".png";
@@ -29,4 +29,5 @@ image1Query.setAttribute("src", diceDirectory);
     else  {
         document.querySelector("h1").innerHTML = "Draw!";
     }
-    
+}
+throwDice();
