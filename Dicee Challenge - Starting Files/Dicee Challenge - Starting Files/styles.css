@@ -14,12 +14,18 @@ body {
   background-color: #393E46;
 }
 
-h1 {
+h1, .btn {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 4rem;
   color: #4ECCA3;
+}
+.btn {
+  font-family: 'Lobster', cursive;
+  background-color: transparent;
+  border-radius: 15px;
+  margin-bottom: 0;
 }
 
 p {
